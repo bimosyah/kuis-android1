@@ -36,6 +36,7 @@ public class WahanaAdapter extends RecyclerView.Adapter<WahanaAdapter.MyViewHold
     public void onBindViewHolder(MyViewHolder holder, int position) {
         Wahana temp = mWahana.get(position);
         holder.textView.setText(mWahana.get(position).getText());
+        holder.textView2.setText(mWahana.get(position).getTitle());
         Glide.with(mContext).load(temp.getImageId()).into(holder.imageView);
     }
 
@@ -46,10 +47,11 @@ public class WahanaAdapter extends RecyclerView.Adapter<WahanaAdapter.MyViewHold
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
         ImageView imageView;
-        TextView textView;
+        TextView textView, textView2;
         public MyViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.img_wahana);
+            textView2 = itemView.findViewById(R.id.tv_title_wahana);
             textView = itemView.findViewById(R.id.tv_wahana);
         }
     }

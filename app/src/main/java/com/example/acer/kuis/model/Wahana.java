@@ -3,10 +3,20 @@ package com.example.acer.kuis.model;
 public class Wahana {
     private int imageId;
     private String text;
+    private String title;
 
-    public Wahana(int imageId, String text) {
+    public Wahana(int imageId, String title, String text) {
         this.imageId = imageId;
+        this.title = title;
         this.text = text;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public int getImageId() {
@@ -20,6 +30,8 @@ public class Wahana {
     public String getText() {
         return text;
     }
+
+
 
     public void setText(String text) {
         this.text = text;

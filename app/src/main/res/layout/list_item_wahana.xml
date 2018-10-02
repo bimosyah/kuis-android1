@@ -14,7 +14,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/komentar"
+        android:textSize="@dimen/sub_title"
+        android:textColor="@color/title"
+        android:layout_gravity="center"
+        android:id="@+id/tv_title_wahana"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textSize="@dimen/textbody"
         android:layout_gravity="center"
         android:textColor="@color/white"

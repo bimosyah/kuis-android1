@@ -9,4 +9,17 @@
     <string name="comment4">Happy time thankyou so much jatimpark</string>
     <string name="comment5">Mantapp Lurr!!</string>
     <string name="komentar">KOMENTAR</string>
+    <string name="whn_hallfame">Hall of Fame : Medical science is developed in the present day can’t be separated from the hands of experts. Get to know the medical scientists who are expert in the field of medicine at Hall Of Fame in The Bagong Adventure Human Body Museum</string>
+    <string name="whn_hallentrance">Let\'s get into the real version of our body! Through Bagong mouth as the entrance gate, you will start you adventure to learn about your own body anatomy!</string>
+    <string name="whn_science">How is the shape of human brain in big giant version? Or what is the shape of the human body when it is cut horizontally, or how does the human anatomy form seen from its blood vessels? Do not forget to visit Bagong Science Center if you want to know the answers</string>
+    <string name="whn_medical">Being heal and healthy is important for us. In The Bagong Adventure Human Body Museum, you can have the medical check-up start from eyes to blood pressure for free. So, don\'t forget to visit The Bagong Adventure Human Body Museum, to learn and care about your health</string>
+    <string name="whn_cadaver">Do you know what makes The Bagong Adventure Human Body Museum special and different? Yup, in the museum, there will be 5 Cadavers waiting on you! Cadaver itself is a real human body that already preserved. So, you\'ll be able to learn about the detail of the parts of your bodies. Then, don\'t worry about a thing! You\'ll be accompanied by guides who will explain your curiousity about Cadaver. Visit The Bagong Adventure Human Body Museum and know the answers about your body.</string>
+    <string name="whn_zona">Terdapat beberapa wahana zona tubuh di Bagong Adventure, antara lain yaitu Heart zone, Brain zone, Nose Zone, dll</string>
+    <string name="title_hallfame">Hall Of Fame</string>
+    <string name="title_hallentrance">Hall Of Entrance</string>
+    <string name="title_science">Science Center</string>
+    <string name="title_medical">Free Medical Check Up</string>
+    <string name="title_cadaver">Cadaver</string>
+    <string name="title_zona">Zona Tubuh</string>
+
 </resources>

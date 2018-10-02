@@ -81,22 +81,22 @@ public class WahanaActivity extends AppCompatActivity {
     }
 
     private void dummyData() {
-        Wahana fasilitas= new Wahana(R.drawable.hallentrance,"Hall Entrance");
+        Wahana fasilitas= new Wahana(R.drawable.hallentrance,getString(R.string.title_hallentrance),getString(R.string.whn_hallentrance));
         mWahanas.add(fasilitas);
 
-        fasilitas= new Wahana(R.drawable.hallfame,"Hall");
+        fasilitas= new Wahana(R.drawable.hallfame,getString(R.string.title_hallfame),getString(R.string.whn_hallfame));
         mWahanas.add(fasilitas);
 
-        fasilitas= new Wahana(R.drawable.science,"Science");
+        fasilitas= new Wahana(R.drawable.science,getString(R.string.title_science),getString(R.string.whn_science));
         mWahanas.add(fasilitas);
 
-        fasilitas= new Wahana(R.drawable.checkup,"Checkup");
+        fasilitas= new Wahana(R.drawable.checkup,getString(R.string.title_medical),getString(R.string.whn_medical));
         mWahanas.add(fasilitas);
 
-        fasilitas= new Wahana(R.drawable.cadavar,"Cadavar");
+        fasilitas= new Wahana(R.drawable.cadavar,getString(R.string.title_cadaver),getString(R.string.whn_cadaver));
         mWahanas.add(fasilitas);
 
-        fasilitas= new Wahana(R.drawable.zonatubuh,"Zona Tubuh");
+        fasilitas= new Wahana(R.drawable.zonatubuh,getString(R.string.title_zona),getString(R.string.whn_zona));
         mWahanas.add(fasilitas);
     }
 
